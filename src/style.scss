@@ -1,0 +1,142 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-stealth-ratings-block-stealth-ratings-block {
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+	border: 1px solid #ececec;
+	padding: 2.5rem 2rem 2rem 2rem;
+	max-width: 480px;
+	margin: 2.5rem auto;
+	font-family: inherit;
+	text-align: center;
+
+	h3 {
+		margin: 0 0 0.8rem 0;
+		font-size: 1.35rem;
+		font-weight: 600;
+		text-align: center;
+		letter-spacing: -0.01em;
+	}
+
+	p {
+		text-align: center;
+		margin: 0 0 1.5rem 0;
+		color: #222;
+		font-size: 1.1rem;
+	}
+
+	.stealth-ratings-stars {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0.8rem;
+		gap: 0.3rem;
+	}
+
+	.stealth-ratings-caption {
+		text-align: center;
+		color: #b0b0b0;
+		font-size: 1rem;
+		margin-bottom: 1.2rem;
+	}
+
+	.stealth-ratings-form {
+		margin-top: 1.5rem;
+		background: #f8f9fa;
+		border-radius: 10px;
+		padding: 1.2rem 1rem;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+	}
+
+	.star {
+		transition: color 0.18s, transform 0.18s;
+		font-size: 2.6rem;
+		color: #ddd;
+		margin: 0 0.18rem;
+		cursor: pointer;
+		user-select: none;
+	}
+	.star:hover,
+	.star:focus {
+		color: #FFC94A;
+		transform: scale(1.18);
+		outline: none;
+	}
+	.star.filled {
+		color: #FFA800;
+		text-shadow: 0 1px 3px #f5e7b2;
+	}
+	.star.filled:hover,
+	.star.filled:focus {
+		color: #FFC94A;
+	}
+	
+	
+	.star.filled {
+		color: #FFA800;
+		text-shadow: 0 1px 3px #f5e7b2;
+	}
+	
+	.stealth-ratings-form {
+		margin-top: 1.7rem;
+		background: #f8f9fa;
+		border-radius: 10px;
+		padding: 1.2rem 1rem;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+	}
+	
+	
+	.stealth-ratings-form label {
+		font-weight: 500;
+		margin-bottom: 0.25rem;
+		font-size: 1rem;
+	}
+	
+	
+	.stealth-ratings-form input,
+	.stealth-ratings-form textarea {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	
+	.stealth-ratings-form button,
+	.stealth-ratings-form .components-button {
+		width: 100%;
+		background: #2563eb;
+		color: #fff;
+		display: inline-block;
+		font-weight: bold;
+		height: auto;
+		border-radius: 6px;
+		padding: 0.75rem 6px;
+		margin-top: 1rem;
+	}
+	
+	.components-notice {
+		border-radius: 8px;
+		margin-top: 1.5rem;
+		padding: 1.25rem 1rem;
+		font-size: 1rem;
+	}
+	
+	.components-notice.is-success {
+		background: #e6fbe6;
+		color: #155724;
+		border: 1px solid #b7e4b7;
+	}
+	
+	.components-notice.is-info {
+		background: #e7f3fe;
+		color: #0c5460;
+		border: 1px solid #b8daff;
+	}
+	
+}
+
+
+
