@@ -37,7 +37,7 @@
 				rating = idx + 1;
 				updateStars();
 				starsCaption.style.display = 'none';
-				if (rating < threshold) {
+				if (rating <= threshold) {
 					feedbackForm.style.display = '';
 					feedbackSuccess.style.display = 'none';
 					feedbackRedirect.style.display = 'none';
