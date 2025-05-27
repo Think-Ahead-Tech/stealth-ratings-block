@@ -39,7 +39,7 @@ No. Stealth Ratings Block is designed to be privacy-friendly and does not track 
 = Can I customize the appearance of the block? =
 Yes, the block supports basic customization options in the editor.
 
-== Screenshots ==
+== Screenshots (coming soon...) ==
 
 1. The Stealth Ratings Block in the block editor
 2. Example of the block on the front end
